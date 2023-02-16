@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+}
+.thumbnail-img {
+  width: 80px;
+  height: 64px;
+  border-radius: 8px;
+  padding-right: 40px;
+}
+@media (min-width: 768px) {
+  .thumbnail-img {
+    width: 255px;
+    height: 170px;
+  }
+}
