@@ -5,6 +5,7 @@ import Loader from 'react-loader-spinner'
 
 import NavBar from '../NavBar'
 import HomeMovieItems from '../HomeMovieItems'
+import TopRated from '../TopRated'
 import Footer from '../Footer'
 
 import './index.css'
@@ -328,8 +329,11 @@ class Home extends Component {
         {this.renderPosterSwitchViews()}
         <h1 className="movie-section-name">Trending Now</h1>
         {this.renderTrendingSwitchViews()}
+        <h1 className="movie-section-name">Top Rated</h1>
+        <TopRated />
         <h1 className="movie-section-name">Originals</h1>
         {this.renderOriginalsSwitchViews()}
+
         <Footer />
       </div>
     )
